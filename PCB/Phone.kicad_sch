@@ -1,0 +1,150 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "4fa1dd4b-6725-4ebb-9bbc-2a7859a622b2")
+	(paper "USLegal")
+	(title_block
+		(title "Phone")
+		(date "2024-12-30")
+		(rev "0.1")
+	)
+	(lib_symbols)
+	(text "MAIN"
+		(exclude_from_sim no)
+		(at 35.814 22.098 0)
+		(effects
+			(font
+				(size 12.7 12.7)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "60db9f37-c7fa-4a62-bb0c-c0cee23f06fa")
+	)
+	(sheet
+		(at 241.3 66.04)
+		(size 74.93 73.66)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5bb58d5a-3f5a-4c61-9db1-2d458564e836")
+		(property "Sheetname" "Power"
+			(at 241.3 63.4234 0)
+			(effects
+				(font
+					(size 5.08 5.08)
+					(thickness 1.016)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Phone.kicad_sch"
+			(at 241.3 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Phone"
+				(path "/4fa1dd4b-6725-4ebb-9bbc-2a7859a622b2"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.89 66.04)
+		(size 74.93 73.66)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e4241b66-1dae-43f8-addf-be551826aba9")
+		(property "Sheetname" "Sim"
+			(at 135.89 63.4234 0)
+			(effects
+				(font
+					(size 5.08 5.08)
+					(thickness 1.016)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Phone_sim.kicad_sch"
+			(at 135.89 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Phone"
+				(path "/4fa1dd4b-6725-4ebb-9bbc-2a7859a622b2"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.75 66.04)
+		(size 74.93 73.66)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f3bf5a8a-8a3f-4e7c-88a4-71457e04c7d4")
+		(property "Sheetname" "STM32"
+			(at 31.75 63.4234 0)
+			(effects
+				(font
+					(size 5.08 5.08)
+					(thickness 1.016)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Phone_STM32.kicad_sch"
+			(at 31.75 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Phone"
+				(path "/4fa1dd4b-6725-4ebb-9bbc-2a7859a622b2"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
